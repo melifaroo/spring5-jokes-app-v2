@@ -15,7 +15,6 @@ public class JokeServiceImpl implements JokeService {
 
     @Override
     public String getJoke() {
-        // TODO Auto-generated method stub
         return chuckNorrisQuotes.getRandomQuote();
     }
     
